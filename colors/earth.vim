@@ -1,8 +1,7 @@
 " Vim color file
-"  Maintainer: Tiza
-" Last Change: 2002/10/30 Wed 00:08.
-"     version: 1.0
-" This color scheme uses a dark background.
+"  Maintainer: Shrinath
+" Last Change: 2004/09/13 Mon 12:50.
+"     version: 0.2
 
 set background=dark
 hi clear
@@ -10,12 +9,8 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let colors_name = "myscheme"
+let colors_name = "earth"
 
-"hi Normal       guifg=#ffffff guibg=#005c70
-"hi Normal       guifg=#000000 guibg=#9999FF
-"hi Normal       guifg=#000000 guibg=#9999CC
-"hi Normal       guifg=#000000 guibg=#CCCCFF
 hi Normal       guifg=#000000 guibg=#99CC99
 
 " Search
@@ -55,11 +50,9 @@ hi FoldColumn   gui=NONE guifg=#60e0e0 guibg=#006c7f
 hi Directory    gui=NONE guifg=#00e0ff guibg=NONE
 hi LineNr       gui=BOLD guifg=#669966 guibg=NONE
 hi NonText      gui=BOLD guifg=#00c0c0 guibg=#9999CC
-"#006276
 hi SpecialKey   gui=NONE guifg=#e0a0ff guibg=NONE
 hi Title        gui=BOLD guifg=#003300 guibg=NONE
 hi Visual       gui=NONE guifg=#000000 guibg=#6060d0
-" hi VisualNOS  gui=NONE guifg=#ffffff guibg=#6060d0
 
 " Syntax group
 hi Comment      gui=NONE guifg=#996666 guibg=NONE
